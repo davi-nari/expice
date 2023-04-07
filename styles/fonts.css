@@ -1,0 +1,24 @@
+@font-face {
+    font-family: P400;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: P500;
+    src: url(../fonts/Poppins-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: P600;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: P700;
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: P900;
+    src: url(../fonts/Poppins-Black.ttf);
+    font-weight: 900;
+}

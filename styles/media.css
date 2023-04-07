@@ -1,0 +1,336 @@
+@media (max-width:1831px){
+    .services-group , .services-group-r{
+        display: none;
+    }
+    .footer-least{
+        bottom: 25px;
+    }
+}
+@media (max-width:1552px){
+    .services-info-right{
+        padding: 105px 119px 104px;
+    }
+    .arrow{
+        max-width: 109px;
+    }
+    .bottom-arrow{
+        max-width: 144px;
+    }
+    .services-info-left{
+        gap: 85px;
+    }
+    .bottom > img{
+        transform: translateX(63px);
+    }
+    .services-info-left > img{
+        max-width: 271px;
+    }
+    .bottom-line-arrow{
+        top: 42.5%;
+    }
+    .line-arrow{
+        top: 43.5%;
+    }
+    .arrow{
+        top: 40.5%;
+        left: 43%;
+    }
+}
+@media (max-width:1469px){
+    .footer-least{
+        left: -5%;
+    }
+}
+@media (max-width:1366px){
+    .advance-least{
+        max-width: 608px;
+        width: 100%;
+    }
+    .services{
+        margin: 100px 0 119px;
+    }
+    .footer-least{
+        left: -15%;
+    }
+    .footer-soc{
+        left: 70%;
+    }
+    
+}
+@media (max-width:1350px){
+.header-form{
+    margin-bottom: 40px;
+}
+.services-info-right > img{
+    max-width: 212px;
+}
+.services-info-right h3{
+    margin-top: 40px;
+}
+.footer-soc{
+    left: 64%;
+}
+}
+@media (max-width:1195px){
+    .nav-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        width: 75%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -110%;
+        z-index: 999;
+        background: #2E266F;
+        transition: 0.5s;
+        font-size: 30px;
+        transform: translateX(0);
+    }
+    .nav-list a{
+        color: white;
+    }
+    .burger{
+        display: block;
+        z-index: 1000;
+    }
+    .burger:hover ~ .nav-list{
+       right: 0;
+    }
+    .nav-user{
+        display: none;
+    }
+    h1{
+        font-size: 50px;
+        margin-bottom: 30px;
+        max-width: 757px;
+    }
+    .header-form{
+        max-width: 462px;
+        margin-bottom: 50px;
+    }
+    .header-form button{
+        max-width: 146px;
+        padding: 20px 50px;
+    }
+    .location{
+        padding: 17px 58px 17px 32px;
+    }
+    .header-img  img:first-of-type{
+        max-width: 545px;
+        width: 100%;
+    }
+    .header-red{
+        max-width: 302px;
+    }
+    .header-content-text span{
+        font-size: 150px;
+    }
+    .seeMore{
+        margin-left: 49px;
+    }
+    .card-btn{
+        padding: 15px 30px;
+    }
+    .advance-form{
+        max-width: 971px;
+    }
+    .advance-form .header-form{
+        width: 544px;
+    }
+    .form-title{
+        width: 334px;
+    }
+    .services-info {
+        flex-wrap: wrap;
+        gap: 90px;
+        justify-content: center;
+    }
+    .services .container > span{
+        margin-bottom: 135px;
+        gap: 126px;
+    }
+    .phone{
+        max-width: 514px;
+    }
+    .app-least{
+        max-width: 522px;
+        left: -20%;
+    }
+    .footer-least{
+        max-width: 553px;
+        bottom: 12%;
+    }
+    .footer-soc{
+        left: 55%;
+    }
+
+}
+@media (max-width:930px){
+    .header-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header-img div{
+        right: 10%;
+        bottom: -3%;
+    }
+    .debut-stops{
+        display: none;
+    }
+    .app .container{
+        flex-wrap: wrap;
+    }
+    .footer-least{
+        left: -26%;
+    }
+}
+@media( max-width:896px){
+    .debut-cards{
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    .seeMore{
+        margin-left: 0;
+    }
+    .advance-form{
+        max-width: 458px;
+        padding: 18px 0 38px;
+    }
+    .advance-form .header-form{
+        max-width: 411px;
+        z-index: 9;
+    }
+    .form-title{
+        font-size: 24px;
+    }
+    .advance-form span{
+        gap: 20px;
+    }
+    .ad-least-two{
+        display: none;
+    }
+    .services-box{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .services-info{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .services .container > span{
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .services .container > span .main-par{
+        padding-left: 62px;
+    }
+    .phone{
+        max-width: 317px;
+    }
+    .footer-least{
+        max-width: 450px;
+        left: -15%;
+        bottom: 25%;
+    }
+    .footer-soc{
+        left: 50%;
+    }
+}
+@media (max-width:775px){
+    .footer-info .main-title{
+        font-size: 24px;
+    }
+    .footer-info .main-par{
+        max-width: 415px;
+    }
+    .footer-soc{
+        left: 30%;
+    }
+}
+@media (max-width:694px){
+    .footer-least{
+        left: -19%;
+        bottom: 6%;
+    } 
+    .footer{
+        min-height: 560px;
+    }
+    .footer-soc{
+        left: 21%;
+        bottom: 5%;
+    }
+    .footer-least{
+        bottom: 29%;
+        left: -20%;
+    }
+}
+@media (max-width:586px){
+    .header-red{
+        max-width: 140px;
+    }
+    .header-content-text span{
+        font-size: 100px;
+    }
+    h1{
+        font-size: 36px;
+        margin-top: 30px;
+        max-width: 383px;
+    }
+    .main-title{
+        font-size: 36px;
+    }
+    .header-img div{
+        right: -2%;
+        bottom: 3%;
+    }
+    .header-img div img{
+        max-width: 44px;
+    }
+    .car-none{
+        display: block;
+        max-width: 44px;
+    }
+    .left{
+        display: none;
+    }
+    .services-info-left{
+        gap: 45px;
+    }
+    .arrow{
+        max-width: 73px;
+        top: 41.5%;
+        left: 47%;
+    }
+    .bottom-arrow{
+        max-width: 81px;
+        right: 40%;
+        top: 41.5%;
+    }
+    .footer-info .header-form{
+        margin: 0;
+    }
+}
+@media (max-width:554px){
+    .bottom > img{
+        transform: translateX(0);
+    }
+    .bottom-arrow{
+        right: 52%;
+    }
+    .main-title{
+        font-size: 36px;
+    }
+    .footer-least{
+        max-width: 279px;
+        bottom: 29%;
+        left: -20%;
+    }
+    .footer-soc{
+        left: 15%;
+        bottom: 4%;
+    }
+}
